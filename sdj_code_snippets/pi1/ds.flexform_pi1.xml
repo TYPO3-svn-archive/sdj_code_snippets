@@ -1,0 +1,54 @@
+<T3DataStructure>
+<meta>
+	<langDisable>1</langDisable>
+</meta>
+<sheets>
+	<sDEF>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:sdj_code_snippets/pi1/locallang_pi1.xml:snippet</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+		<language>
+			<TCEforms>
+				<label>LLL:EXT:sdj_code_snippets/pi1/locallang_pi1.xml:snippet.language</label>
+				<config>
+					<type>select</type>
+					<itemsProcFunc>tx_sdjcodesnippets_availableLanguages->listAvailableLanguages</itemsProcFunc>
+					<items type="array">
+						<numIndex index="0" type="array">
+							<numIndex index="0"></numIndex>
+							<numIndex index="1"></numIndex>
+						</numIndex>
+					</items>
+					<maxitems>1</maxitems>
+					<size>1</size>
+				</config>
+			</TCEforms>
+		</language>
+		<code>
+			<TCEforms>
+				<label>LLL:EXT:sdj_code_snippets/pi1/locallang_pi1.xml:snippet.code</label>
+				<config>
+					<type>text</type>
+					<cols>48</cols>
+					<rows>12</rows>
+				</config>
+			</TCEforms>
+		</code>
+		<title>
+			<TCEforms>
+				<label>LLL:EXT:psp_buttons/pi1/locallang_pi1.xml:snippet.title</label>
+				<config>
+					<type>input</type>
+					<size>40</size>
+					<max>256</max>
+				</config>
+			</TCEforms>
+		</title>
+		</el>
+	</ROOT>
+	</sDEF>
+</sheets>
+</T3DataStructure>

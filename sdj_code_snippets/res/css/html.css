@@ -1,0 +1,54 @@
+ol.html4strict span.sc2 a {
+	border-bottom:0;
+	text-decoration:none;
+}
+ol.html4strict span.sc2 a:hover {
+	text-decoration:underline;
+}
+
+/**
+ * Blue
+ */
+ol.html4strict .sy0 {
+	color:#0000ff;
+}
+
+/**
+ * Dark red/bordeaux
+ */
+ol.html4strict .kw2 {
+	color:#a31515;
+	color:#00869c;
+}
+
+ol.html4strict .kw3 {
+	color:#ff0000;
+	color:#0000ff;
+	color:#8B0988;
+}
+
+ol.html4strict .st0 {
+	color:#008000;
+	color:#0000ff;
+} 
+
+ol.html4strict .sc0 {
+	color:#4682B4;
+	font-style:italic;
+}
+
+
+
+ol.html li code {
+	
+}
+ol.html li code span.tag {
+	color:#00869c!important;
+}
+ol.html li code span.prop {
+	color:#8B0988!important;
+}
+ol.html li code span.val {
+	color:#0000ff!important;
+	font-style:italic;
+}

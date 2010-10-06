@@ -1,0 +1,62 @@
+/**
+ * ol.typoscript li code span.br,
+ol.typoscript li code span.op {
+	color:#007746!important;
+}
+ol.typoscript li code span.var {
+	color:#0000ff!important;
+}
+ol.typoscript li code span.num {
+	color:#732824!important;
+}
+ol.typoscript li code span.obj {
+	color:#8B0988!important;
+}
+
+ */
+ol.typoscript li span {
+	color:#0000ff;
+}
+ol.typoscript span.nu0 {
+	color:#732824;
+}
+ol.typoscript a {
+	text-decoration:none;
+}
+ol.typoscript a:hover {
+	text-decoration:underline;
+	color:#8B0988;
+}
+/**
+ * Brackets and operators
+ * @color: Green
+ */
+ol.typoscript span.br0,
+ol.typoscript span.sy0 {
+	color:#007746;
+}
+
+/**
+ * Functions like if, numRows, stdWrap
+ * @color: Red
+ */
+ol.typoscript span.kw2 {
+	color:#ff0000;
+}
+
+/**
+ * Objects like TEXT, HTML, COA
+ * @color: Violet
+ */
+ol.typoscript span.kw4 {
+	color:#8B0988;
+}
+
+/**
+ * Values
+ * @color: Orange
+ */
+ol.typoscript span.val {
+	color:#FFA965;
+	color:#ff6600;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>plugin</type>
+		<description>Code snippets LL labels</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="snippet">Code snippet</label>
+			<label index="snippet.language">Langauge:</label>
+			<label index="snippet.code">Code:</label>
+			<label index="snippet.title">Title:</label>
+		</languageKey>
+	</data>
+</T3locallang>

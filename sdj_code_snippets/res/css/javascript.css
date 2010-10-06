@@ -1,0 +1,24 @@
+ol.javascript .coMULTI {
+	color:#aaa;
+}
+
+ol.javascript .kw1 {
+	color:#0000ff;
+}
+
+ol.javascript .kw2 {
+	color:#8F226B;
+}
+
+/**
+ * Brackets, Syntax
+ */
+ol.javascript .sy0,
+ol.javascript .br0 {
+	font-weight:bold;
+}
+
+
+ol.javascript .st0 {
+	color:#008000;
+}

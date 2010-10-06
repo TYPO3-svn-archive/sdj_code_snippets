@@ -1,0 +1,10 @@
+plugin.tx_sdjcodesnippets_pi1 {
+    enable = 1
+    showPlain = 1
+    showTitle = 1
+
+    code_stdWrap.wrap = |
+    plain_stdWrap.wrap = <pre class="code" id="plain-###UNIQUE_KEY###">|</pre>
+    title_stdWrap.wrap = <h5 class="code-header">|&nbsp;<a id="###UNIQUE_KEY###" class="code-toggle" onclick="if(document.getElementById('plain-###UNIQUE_KEY###').style.display == 'block') { document.getElementById('plain-###UNIQUE_KEY###').style.display } else {  } return false;" href="#" title="Toggle plain/highlighted code"><img style="float:right;" alt="" src="fileadmin/themes/szebi/img/page_white_code.png" /></a></h5>
+    full_stdWrap.wrap = |
+}

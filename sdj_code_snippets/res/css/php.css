@@ -1,0 +1,68 @@
+/**
+ * Gray
+ */
+ol.php .co1,
+ol.php .co2,
+ol.php .co3,
+ol.php .co4,
+ol.php .coMULTI {
+	color:#808080;
+	color:#aaa;
+}
+
+/**
+ * Blue
+ */
+ol.php .kw1,
+ol.php .kw2,
+ol.php .kw3,
+ol.php .kw4 {
+	color:#0000ff;
+}
+
+/**
+ * Red
+ */
+ol.php .kw2 {
+	color:#ff0000;
+}
+
+/**
+ * Dark Red/Bordeaux
+ * $variables
+ */
+ol.php .re0 {
+	color:#a31515;
+}
+
+/**
+ * Dark green
+ * 'Strings'
+ */
+ol.php .st_h {
+	color:#008000;
+}
+
+/**
+ * Black
+ * Brackets {}()[]
+ */
+ol.php .br0,
+ol.php .br1,
+ol.php .br2 {
+	color:#000;
+}
+
+/**
+ * Default
+ */
+ol.php li code {
+	color:#333;
+}
+ol.php li a {
+	text-decoration:none;
+	border-bottom:none;
+}
+ol.php li a:hover {
+	text-decoration:underline;
+}
